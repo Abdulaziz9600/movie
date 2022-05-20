@@ -1,0 +1,26 @@
+body {
+  background-image: url(../img/cinema-film-strip-wave-reel-clapper-board-isolated-blue-background-d-movie-flyer-poster-place-your-text-150292546.jpg);
+}
+.film-item {
+  background-image: url(../img/movie-projector-55122__340.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  transition: 0.8s ease;
+}
+.item-box {
+  position: relative;
+  padding: 0 !important;
+}
+.film-item:hover{
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.play {
+position: absolute;
+font-size: 58px;
+left: 0px;
+right: 0px;
+top: 60px;
+}

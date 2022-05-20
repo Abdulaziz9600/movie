@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center text-white pt-3">Kinolar</h2>
+    <form class="js-form-search d-flex justify-content-center " action="https://echo.htmlacademy.ru" method="POST">
+      <input class="rounded js-films-search" type="search">
+    </form>
+<ul class="js-cinema-list d-flex flex-wrap justify-content-center list-unstyled pt-4">
+</ul>
+  </div>
+
+  <template id="movies-template">
+    <li class="card mb-4 text-center me-4 film-item col-sm-4 col-md-3 col-lg-2 text-center  mx-2 mb-2 border border-2" style="width: 18rem; height: 270px; overflow: auto;">
+      <div class="card-body item-box">
+        <img class="card-img-top"  src="" alt="">
+        <a href="" target="_blank" class="play"><i class='bx bx-play' ></i></a>
+        <h5 class="card-title text-primary fw-bold">Small Town Saturday Night</h5>
+
+        <p class="card-cast card-text text-white">"Chris Pine","Shawn Christian","John Hawkes","Bre Blair","Muse Watson","Robert
+          Pine","Brent Briscoe","Lin Shaye"</p>
+
+        <p class="card-genres card-text fw-bold text-warning">"Drama"</p>
+
+        <p class="card-year card-text fw-bold text-warning">2010</p>
+      </div>
+    </li>
+  </template>
+  <script src="./js/movies.js"></script>
+  <script src="./js/utils.js"></script> 
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
