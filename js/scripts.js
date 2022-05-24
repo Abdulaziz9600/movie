@@ -33,6 +33,7 @@ let createMovieElement = (movie) => {
   $(".card-cast", movieElement).textContent = movie.fulltitle;
   $(".card-genres", movieElement).textContent = movie.Categories;
   $(".card-year", movieElement).textContent = movie.summary;
+  $(".card-rating",movieElement).textContent = movie.imdbRating
   $(".play", movieElement).href = movie.trailer;
 
   return movieElement;
